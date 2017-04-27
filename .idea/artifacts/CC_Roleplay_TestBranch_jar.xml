@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CC-Roleplay-TestBranch:jar">
+    <output-path>$PROJECT_DIR$/..</output-path>
+    <root id="archive" name="CC-Roleplay-TestBranch.jar">
+      <element id="module-output" name="CC-Roleplay-TestBranch" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Server2/spigot.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/SimpleAPI (3).jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+name: CC-Rollplay
+authors: [brainsynder, bobcatsss]
+version: 1.0
+depends: [SimpleAPI]
+main: play.brainsynder.Core
+commands:
+   rp:
+      description: Main RollPlay Command
