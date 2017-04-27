@@ -25,6 +25,8 @@ public class LeaveGroup {
             } else {
                 p.sendMessage(Messages.pnNotInGroup);
             }
+        } else {
+            p.sendMessage(Messages.noPerms);
         }
     }
 

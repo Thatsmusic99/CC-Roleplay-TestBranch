@@ -32,6 +32,8 @@ public class InviteAccept {
             } else {
                 p.sendMessage(Messages.noInvites);
             }
+        } else {
+            p.sendMessage(Messages.noPerms);
         }
     }
     public static void onAcceptArgs(String gn, Player p) {
@@ -55,6 +57,8 @@ public class InviteAccept {
             } else {
                 p.sendMessage(Messages.noInvites);
             }
+        } else {
+            p.sendMessage(Messages.noPerms);
         }
     }
 }

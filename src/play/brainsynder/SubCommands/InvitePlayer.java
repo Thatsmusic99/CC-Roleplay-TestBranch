@@ -41,6 +41,8 @@ public class InvitePlayer {
             } catch (Exception e) {
                 e.printStackTrace();
             }
+        } else {
+            cs.sendMessage(Messages.noPerms);
         }
     }
 }
